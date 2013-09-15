@@ -12,8 +12,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+#Assumed Trading days to be 252 as per wiki. Ideally must be len(data)
 TRADING_DAYS = 252
 
+# 
 def simulate(close_price, initial_allocations):
     # Convert Start time and end time to date time objects
     
